@@ -25,5 +25,5 @@ function addUpTo(n) {
 }
 ```
 
-Here we have `n additions`, `n assignments`, `1 assignment`, `n comparisons`
+Here we have `n additions`, `n assignments`, `1 assignment`, `n comparisons`.
 Regardless of the exact number, The number of operations grows roughly proportionally with n.
