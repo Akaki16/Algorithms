@@ -8,7 +8,7 @@
 
 - `loga(b) = c` (a^c = b)
 - `log2(value) = exponent` (2^exponent = value)
-- `log2(8) = 3` (2^3 = 2 _ 2 _ 2 = 8)
+- `log2(8) = 3` (2^3 = 2 x 2 x 2 = 8)
 
 The logarithm of a number roughly measures the number of times you can divide that number by 2 before you get a value that's less than or equal to one.
 `8 : 2 = 4, 4 : 2 = 2, 2 : 2 = 1, log2(8) = 3`
