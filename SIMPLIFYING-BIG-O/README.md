@@ -11,9 +11,9 @@
 - `O(n^2 + n^3) = O(n^3)`
 - `O(n + n + n + n) = O(4n) = O(n)`
 
-- `O(n)` means linear
-- `O(n^3)` means cubic
-- `O(1)` means constant
+1. `O(n)` means linear
+2. `O(n^3)` means cubic
+3. `O(1)` means constant
 
 ## Big O Shorthands
 
