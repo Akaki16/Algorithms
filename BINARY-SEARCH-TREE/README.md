@@ -78,7 +78,7 @@ These time complexities are not guaranteed, because we might have a one sided tr
 
 ## Further Reading
 
-[Binary Search Tree](https://en.wikipedia.org/wiki/Binary_search_tree)
-[Tree Traversal](https://en.wikipedia.org/wiki/Tree_traversal)
-[Breadth-First-Search (BFS)](https://en.wikipedia.org/wiki/Breadth-first_search)
-[Depth-First-Search (DFS)](https://en.wikipedia.org/wiki/Depth-first_search)
+- [Binary Search Tree](https://en.wikipedia.org/wiki/Binary_search_tree)
+- [Tree Traversal](https://en.wikipedia.org/wiki/Tree_traversal)
+- [Breadth-First-Search (BFS)](https://en.wikipedia.org/wiki/Breadth-first_search)
+- [Depth-First-Search (DFS)](https://en.wikipedia.org/wiki/Depth-first_search)
