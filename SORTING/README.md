@@ -194,3 +194,35 @@ Merge Sort is a fast sorting algorithm and can be used to sort large sets of dat
 - In all cases, Space Complexity is `O(1)` (constant)
 
 Quick Sort is highly efficient sorting algorithm and can be used to sort large data sets. In fact when memory efficiency is critical, In that case it might be really helpful, because it doesn't require any extra space
+
+## Radix Sort (not comparison based)
+
+Radix Sort is a special sorting algorithm that works on lists of numbers. It never makes comparisons between elements! It exploits the fact that information about the size of a number is encoded in the number of `digits`. More digits means a bigger number!
+
+## Radix Sort helpers
+
+In order to implement radix sort, It's helpful to build a few helper functions first:
+
+- `getDigit(num, place)`: returns the digit in num at the given place value
+- `digitCount(num)`: returns the number of digits in num
+- `mostDigits(nums)`: given an array of numbers, returns the number of digits in the largest numbers in the list
+
+## Radix Sort pseudocode
+
+- Define a function that accepts list of numbers
+- Figure out how many digits the largest number has
+- Loop from `k = 0` to this largest number of digits
+- For each iteration of the loop:
+- Create `buckets` for each digit `(0 to 9)`
+- Place each number in the corresponding bucket based on its `k`th digit.
+- Replace our existing array with values in our buckets, starting with 0 and going up to 9.
+- Return list at the end
+
+## Big O of radix sort
+
+- In the best case, Time Complexity is `O(nk)`
+- In the average case, Time Complexity is `O(nk)`
+- In the worst case, Time Complexity is `O(nk)`
+- In all of the cases, Space Complexity is `O(n + k)`
+
+Radix Sort is relatively easy to implement and predictable sorting algorithm. `n - length of array k - number of digits (average)`
