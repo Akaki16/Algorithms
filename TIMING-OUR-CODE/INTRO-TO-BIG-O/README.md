@@ -65,3 +65,7 @@ function printPairs(n) {
 
 Here we have a nested loop, loop inside another loop. `O(n) operation inside another O(n) operation`. So the time complexity of this function is `O(n^2)`.
 `O(n) * O(n) = O(n * n) = O(n^2)`. (quadratic time complexity)
+
+## Further Reading
+
+[Time Complexity](https://en.wikipedia.org/wiki/Time_complexity)
