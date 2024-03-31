@@ -68,4 +68,5 @@ Here we have a nested loop, loop inside another loop. `O(n) operation inside ano
 
 ## Further Reading
 
-[Time Complexity](https://en.wikipedia.org/wiki/Time_complexity)
+- [Big O](https://en.wikipedia.org/wiki/Big_O_notation)
+- [Time Complexity](https://en.wikipedia.org/wiki/Time_complexity)
