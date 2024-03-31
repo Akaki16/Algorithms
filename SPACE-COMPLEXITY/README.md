@@ -43,3 +43,7 @@ objects are great for fast insertion/deletion.
 - splice: `O(n)`
 - sort: `O(n * logn)`
 - forEach/map/filter/reduce/e.t.c: `O(n)`
+
+## Further Reading
+
+[Space Complexity](https://en.wikipedia.org/wiki/Space_complexity)
