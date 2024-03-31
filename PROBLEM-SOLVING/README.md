@@ -49,3 +49,7 @@ This pattern involves creating a window which can either be an array or a number
 ### Divide and Conquer pattern
 
 This pattern involves dividing a data set into smaller chunks and then repeating a process with a subset of data. This pattern can tremendously decrease time complexity. `Binary Search` is an example of divide and conquer algorithm.
+
+## Further Reading
+
+[Problem Solving](https://en.wikipedia.org/wiki/Problem_solving)
