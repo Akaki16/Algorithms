@@ -55,3 +55,7 @@ function logAtLeast10(n) {
 ```
 
 In this function if n is less than 10, it will run 10 times always. If it is larger than 10, it will run that number of times. (n times). So the time complexity of this function is bounded up to n. Therefore time complexity of this function is `O(n)`.
+
+## Further Reading
+
+[Big O](https://en.wikipedia.org/wiki/Big_O_notation)
