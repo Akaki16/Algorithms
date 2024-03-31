@@ -37,4 +37,4 @@ For any index of array n, The left child is stored at `2n + 1`. The right child 
 
 ## Further Reading
 
-[MaxBinaryHeap](https://en.wikipedia.org/wiki/Min-max_heap)
+[MaxBinaryHeap/MinBinaryHeap](https://en.wikipedia.org/wiki/Min-max_heap)
