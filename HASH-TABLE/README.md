@@ -78,3 +78,7 @@ hash function is like a bridge (connection) which maps a key to an index for sto
 <br>
 
 Hash table is an extremly efficient data structure, which can be used for fast insertion, deletion and access.
+
+## Further Reading
+
+[Hash Table](https://en.wikipedia.org/wiki/Hash_table#:~:text=In%20computing%2C%20a%20hash%20table,that%20maps%20keys%20to%20values.)
