@@ -164,3 +164,9 @@ DFS(vertex):
 - Loop over each vertex in the adjcency list for the vertex you are visiting
 - If it is not inside the object that stores nodes visited, mark it as visited and enqueue that vertex
 - Once you have finished looping, return the array of nodes visited
+
+## Further Reading
+
+- [Graph](<https://en.wikipedia.org/wiki/Graph_(abstract_data_type)>)
+- [DFS](https://en.wikipedia.org/wiki/Depth-first_search)
+- [BFS](https://en.wikipedia.org/wiki/Breadth-first_search)
