@@ -58,11 +58,11 @@ A graph data structure consists of a finite (and possibly mutable) set of vertic
 
 ```
 [Operation, Adjacency List, Adjacency Matrix]
-[Add Vertex, `O(1)`               `O([V]^2)`]
-[Add Edge, `O(1)`                    `O(1)` ]
+[Add Vertex, `O(1)`,              `O([V]^2)`]
+[Add Edge, `O(1)`,                   `O(1)` ]
 [Remove Vertex, `O([V] + [E])`,   `O([V]^2)`]
 [Remove Edge, `O([E])`,              `O(1)` ]
-[Query, `O([V] + [E])`               `O(1)` ]
+[Query, `O([V] + [E])`,              `O(1)` ]
 [Storage, `O([V] + [E])`,         `O([V]^2)`]
 ```
 
@@ -94,9 +94,9 @@ A graph data structure consists of a finite (and possibly mutable) set of vertic
 
 ## Removing an edge (connection)
 
-- This function should accept two vertices, we'll call them vertex1 and vertex2
-- The function should reassign the key of vertex1 to be an array that doesn't contain vertex2
-- The function should reassign the key of vertex2 to be an array that doesn't contain vertex1
+- This function should accept two vertices, we'll call them `vertex1` and `vertex2`
+- The function should reassign the key of `vertex1` to be an array that doesn't contain `vertex2`
+- The function should reassign the key of `vertex2` to be an array that doesn't contain `vertex1`
 - Don't worry about handling errors/invalid vertices
 
 ## Removing a vertex
@@ -126,3 +126,41 @@ DFS(vertex):
         if neighbour is not visited:
             recursively call DFS on neighbour
 ```
+
+## Depth-First-Traversal (Recursive)
+
+- The function should accept a starting node
+- Create a list to store the end result, to be returned at the very end
+- Create an object to store visited vertices
+- Create a helper function which accepts a vertex
+- The helper function should return early if the vertex is empty
+- The helper function should place the vertex it accepts into the visited object and push that vertex into the result array
+- Loop over all of the values in the adjacency list for that vertex
+- If any of those values have not been visited, recursively invoke the helper function with that vertex
+- Invoke the helper function with the starting vertex
+- Return the result array
+
+## Depth-First-Traversal (Iterative)
+
+- The function should accept a starting node
+- Create a stack to help use keep track of vertices (use a list/array)
+- Create a list to store the end result, to be returned at the very end
+- Create an object to store visited vertices
+- Add the starting vertex to the stack, and mark it as visited
+- While the stack has something in it: pop the next vertex from the stack, If that vertex has not been visited yet:
+- Mark it as visited
+- Add it to the result list
+- Push all of its neighbours into the stack
+
+## Breadth-First-Traversal
+
+- This function should accept a starting vertex
+- Create a queue (you can use an array) and place the starting vertex in it
+- Create an array to store the nodes visited
+- Create an object to store nodes visited
+- Mark the starting node as visited
+- Loop as long as there is anything in the queue
+- Remove the first vertex from the queue and push it into the array that stores nodes visited
+- Loop over each vertex in the adjcency list for the vertex you are visiting
+- If it is not inside the object that stores nodes visited, mark it as visited and enqueue that vertex
+- Once you have finished looping, return the array of nodes visited
